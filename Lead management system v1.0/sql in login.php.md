@@ -6,7 +6,8 @@ Vulnerability trigger parameter: $username
 
 The process of vulnerability discovery is as follows：
 
-![image-20221219054716765](C:\markdown\images\image-20221219054716765.png)
+![image](https://user-images.githubusercontent.com/30823782/208321663-6b1fc949-eed0-4a49-9f2b-0cd6e9c61920.png)
+
 
 sqlmap.txt:
 
@@ -31,6 +32,6 @@ EXP:
 ```
 sqlmap.py -r sqlmap.txt -p username --dbms=mysql -D penglead --tables
 ```
+![image](https://user-images.githubusercontent.com/30823782/208321678-a380010e-90fc-43fc-bc40-24139c8c1ce5.png)
 
-<img src="C:\markdown\images\image-20221219054337264.png" alt="image-20221219054337264" style="zoom:80%;" />
 
